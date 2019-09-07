@@ -3,26 +3,41 @@ import Helmet from 'react-helmet';
 import PropTypes from 'prop-types';
 import { Header } from 'components';
 import { Layout, Container } from 'layouts';
+import logo from '../../static/logo/profile.jpg';
 
 const About = center => (
   <Layout>
     <Helmet title={'About'} />
-    <Header title="About"></Header>
+    <Header title="About Yusak"></Header>
     <Container center = {center}>
-		<div>
-			<h1>2017</h1>
-			<p>
-			It was the year where I first encountered crypto. I also figured out that the technology behind crypto was revolutionizing our world. Since then I never look back and keep learning about this technology.
-			</p>
-			<h1>2018</h1>
-			<p>
-			The winter of the industry finally coming. At the end of this year, I realized investing was not enough. I need to build something on this technology. Building require more skills. I decided to learn programming.
-			</p>
-			<h1>2019</h1>
-			<p>
-			This year, I decided to keep learning about blockchain technology, moreover, I also trying to build something on this industry. That's why I created this blog. The goal of this blog is to document my journey into blockchain industry, moreover to become a blockchain developer. My narrative maybe not interested, but who cares? At least I'm being me.
-			</p>
-		</div>
+  		<div>
+        <p>
+          <img src={logo} alt="YM Logo" />
+        </p>
+        <p>
+          Hey there, I’m Yusak. Currently, I’m documenting my journey to become a blockchain developer.
+          I got into <i>cryptocurrency</i> a couple of years ago.
+          The technology behind it drew my attention. It's called the <b>Blockchain</b>.
+        </p>
+        <p>
+          I believe blockchain is the most disruptive invention since the internet.
+          It holds vast promise for every business, society, and us individually.
+          And will have a powerful impact in the next few decades.
+        </p>
+        <p>
+          That's the reason why I'm 100% into the blockchain.
+          I learn to program so I can build something and contribute to the blockchain ecosystem.
+        </p>
+        <p>
+          The goal of this blog is to share my journey to become a blockchain developer.
+          I hope I can give valuable insight to everyone who wants to learn about blockchain.
+        </p>
+        <p>
+          Hit me up on <a href="https://instagram.com/yusak_man" target="_blank"><b>Instagram</b></a> or
+          <a href="https://twitter.com/yusak_man" target="_blank"><b> Twitter</b></a>.
+          My DMs are open, don't hesitate to contact me.
+        </p>
+  		</div>
     </Container>
   </Layout>
 );
