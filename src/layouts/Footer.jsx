@@ -32,11 +32,11 @@ const Footer = () => (
   <Wrapper>
     <Text>
       <span>
-      <a href="https://twitter.com/yusak_man" target="_blank">Twitter</a>
+      <a href="https://twitter.com/yusak_man" rel="noreferrer" target="_blank">Twitter</a>
 	  {'-'}
-	  <a href="https://www.instagram.com/yusak_man/" target="_blank">Instagram</a>
+	  <a href="https://www.instagram.com/yusak_man/" rel="noreferrer" target="_blank">Instagram</a>
 	  {'-'}
-      <a href="https://github.com/yusakman" target="_blank">Github</a>
+      <a href="https://github.com/yusakman" rel="noreferrer" target="_blank">Github</a>
       </span>
     </Text>
   </Wrapper>
